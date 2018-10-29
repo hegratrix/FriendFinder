@@ -1,0 +1,96 @@
+body {
+    background-image: url(./images/hearts.jpg);
+    font-family: 'Mali', cursive; 
+    font-size: 1.2rem;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: lightgray;
+}
+
+.container {
+    width: 65%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightgray;
+    margin-top: 20px;
+    border: 6px solid darkred;
+}
+
+#title, #survey-title, #about-you {
+    font-family: 'Spicy Rice', cursive;
+    color: darkred;
+}
+
+hr {
+    background-color: darkred;
+    height: 2px;
+}
+
+#survey {
+    padding: 2rem;
+}
+
+.lead {
+    color: darkred;
+}
+
+#start-survey {
+    background-color: darkred;
+    font-family:'Mali', cursive; 
+    color: lightgrey;
+    margin-top: 15px;
+}
+
+h3 {
+    font-family: 'Spicy Rice', cursive;
+    color: darkred;
+    margin-top: 25px;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: darkred;
+    color: lightgrey;
+    margin-top: 25px;
+}
+
+select {
+    font-size: 13px;
+}
+
+.modal {
+    display: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1;
+    padding-top: 25px;
+    width: 65%;
+    background-color: lightgrey;
+    padding: 40px;
+  }
+
+.close {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+#modal-title, #match-name {
+    font-family: 'Spicy Rice', cursive;
+    color: darkred;
+    text-align: center;
+}
+
+#match-pic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 440px;
+    border: 4px solid black;
+}
