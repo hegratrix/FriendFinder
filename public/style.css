@@ -78,7 +78,7 @@ select {
 .close {
     position: absolute;
     right: 40px;
-    top: 20px;
+    top: 0px;
 }
 
 #modal-title, #match-name {
@@ -93,4 +93,11 @@ select {
     margin-left: auto;
     height: 440px;
     border: 4px solid black;
+}
+
+.error-message {
+    text-align: center;
+    color: darkred;
+    font-size: 25px;
+    display: none;
 }

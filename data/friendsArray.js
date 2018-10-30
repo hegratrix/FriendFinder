@@ -1,15 +1,15 @@
 const friends = [
-    {   name: 'A',
-        photo: './public/images/animal1.jpg',
-        scores: [5, 1, 1, 1]
+    {   name: 'Oscar Ostrich',
+        photo: './images/animal1.jpg',
+        scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     },
-    {   name: 'B',
-        photo: './public/images/animal2.jpg',
-        scores: [3, 3, 3, 3]
+    {   name: 'Sally Sloth',
+        photo: './images/animal2.jpg',
+        scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     },
-    {   name: 'C',
-        photo: './public/images/animal3.jpg',
-        scores: [5, 5, 5, 5]
+    {   name: 'Kody Koala',
+        photo: './images/animal3.jpg',
+        scores: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     }
 ]
 
